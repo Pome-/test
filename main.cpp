@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+
 #include <opencv2/opencv.hpp>
 
 int main (int argc, const char * argv[]) {
@@ -17,6 +18,7 @@ int main (int argc, const char * argv[]) {
     cv::imshow("Test", img);
     
     cv::waitKey(0);
+    
     return 0;
     
     123
